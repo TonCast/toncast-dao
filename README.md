@@ -3,9 +3,10 @@
 Smart contract system for Toncast DAO that allows users to stake TONCAST tokens, receive membership NFTs, and earn epoch rewards.
 
 ## 🪙 Toncast Jetton Addresses
-
-- **🧪 Testnet**: `kQBM0jlIe1_IGNJmHxV3EYDAswxLQhIxZnzvResvWbtPTCAV`
 - **🚀 Mainnet**: `EQCwIlIRZRVzdwS-iY7QJngnVCU8UMKfPhWr_KkZoQ6Mckju`
+
+## Toncast DAO Address
+- **🚀 Mainnet**: `EQB-ZNGeTObyqf-L7UDcn0nVSQdkTMgYUTNoTttD2UuHGyzj`
 
 ## 🔄 Contract Interaction Flows
 
@@ -58,7 +59,7 @@ Smart contract system for Toncast DAO that allows users to stake TONCAST tokens,
 
 ### 📝 Basic Parameters
 - **👤 Owner**: Contract owner address (immutable after deployment)
-- **💰 Minimum deposit**: 1 TONCAST token (configurable during deployment)
+- **💰 Minimum deposit**: 100 TONCAST token (configurable during deployment)
 - **🖼️ NFT Collection**: Address of the NFT collection contract for minting membership NFTs
 - **👛 Jetton Wallet**: DAO's Toncast jetton wallet address for receiving deposits
 - **🏷️ NFT Name Prefix**: Prefix for NFT names (e.g., "ToncastDAO Member") - **immutable**
